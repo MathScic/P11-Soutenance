@@ -1,0 +1,20 @@
+Note session semaine du 22/04/24 
+
+recreer UserReducer et loginReducer
+
+- problème sur l'affichage du username lors de la connection, A REGLER
+
+1) stocker le token dans le store.js OK  2) Redirige vers la page User.js  3) recup du token et le placer dans l'appel put /profile
+
+
+
+- gérer lors de la deconection que le /user dasn l'url nous dirige sur une page erreur ou loading, A REGLER 
+
+1/ ajouter a l'appel POST api dans le else redirection vers login ou poage home.js 
+
+
+
+
+- gérer la partie editName afin que le firstName et lastName change instantanément, A REGLER 
+
+1/ appel api avec PUT recuperer .username
